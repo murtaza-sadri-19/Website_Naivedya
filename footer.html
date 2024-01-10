@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container-fluid-footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: auto;
+            background-color: gray;
+            color: 	#FAF9F6;
+        }
+        .line{
+            width: 1.5px;
+            height: auto;
+            background-color: black;
+            margin: 40px;
+        }
+        .college, .contact{
+            position: relative;
+            padding: 45px;
+            text-align: center;
+            align-items: center;
+        }
+        .contact{
+            display: flex;
+            flex-direction: column;
+            text-transform: none;
+        }
+        .horizontal{
+            width: 100%;
+            height: 0.5px;
+            background-color: black;
+        }
+        .college{
+            justify-content: center;
+        }
+        a{
+            text-transform: lowercase;
+            font-size: 1rem;
+            color: rgb(8, 103, 187);
+        }
+    </style>
+</head>
+<body>
+    <div class="footer">
+        <div class="container-fluid-footer">
+            <div class="college">
+                <span><h1>Shri G.S. Institute of Technology & Sciences</h1></span>
+                <span><h2>Club Naivedya</h2></span>
+            </div>
+            <div class = "line"></div>
+            <div class="contact">
+                <p>
+                    <h2>Shri G.S. Institute of Technology & Sciences</h2><br>
+                    <span>Address : 23 Sir M. Visvesvaraya Marg, Indore, Madhya Pradesh 452003</span><br>
+                    <span>Tel : +91 - 731 - 2582100</span><br>
+                    <span>Email : director@sgsits.ac.in </span><br>
+                    <span>Website: <a href="http://https://www.sgsits.ac.in/" target="_blank"> https://www.sgsits.ac.in/ </a></span>
+                </p>
+                <div class="horizontal"></div>
+                <p>
+                    <h3>Club Naivedya</h3>
+                    <span>Instagram</span><br>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
